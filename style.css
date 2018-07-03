@@ -1,0 +1,25 @@
+/**
+ * Created by hangeonho on 2018. 7. 2..
+ * File purpose : styling index.html
+ */
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-image: url('./background.jpg');
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.raindrop {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), white);
+    display: inline-block;
+    width: 2px;
+    height: 10px;
+    position: absolute;
+    opacity: 0;
+}
