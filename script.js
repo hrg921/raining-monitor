@@ -11,7 +11,6 @@ const theNumberOfRainDrop = 500;
 function createRainDrop() {
   var raindrop = document.createElement('div');
   raindrop.classList.add('raindrop');
-  raindrop.style.top = "0px";
   body.appendChild(raindrop);
   return raindrop;
 }
