@@ -17,7 +17,7 @@ function createRainDrop() {
 
 function dropRainDrop(raindrop, topOfRainDrop) {
   raindrop.animate([
-    {top: topOfRainDrop + "px", opacity: 1},
+    {top: -topOfRainDrop + "px", opacity: 1},
     {top: height + 'px', opacity: 0.3}
   ], {
     duration: terminalSpeed,
